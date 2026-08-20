@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,11 +12,11 @@ public class GameManager : MonoBehaviour
     public int currentLevel = 1;
     
     [Header("UI References")]
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI livesText;
-    public TextMeshProUGUI pelletsText;
-    public TextMeshProUGUI gameOverText;
-    public TextMeshProUGUI winText;
+    public Text scoreText;
+    public Text livesText;
+    public Text pelletsText;
+    public Text gameOverText;
+    public Text winText;
 
     [Header("Game References")]
     public PacmanController pacman;
